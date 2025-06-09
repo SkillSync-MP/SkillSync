@@ -1,7 +1,7 @@
 //src/app/onboarding/StepNavigation.tsx
 import React from "react";
-import { useRouter } from "next/navigation";
-import formData from "./formData"; // Import formData to get total steps dynamically
+import formData from "./formData";
+import Button from "@/components/ui/Button";
 
 const StepNavigation = ({
     step,
@@ -12,37 +12,38 @@ const StepNavigation = ({
     setStep: React.Dispatch<React.SetStateAction<number>>;
     handleSubmit: () => void;
 }) => {
-    const router = useRouter();
-    const totalSteps = formData.length; // Dynamically get the number of questions
+    const totalSteps = formData.length;
 
     return (
-        <div className="flex justify-between mt-4">
+        <div className="flex justify-between items-center mt-8 pt-6 border-t border-white/20">
             {/* Previous Button */}
-            {step > 0 && (
-                <button
+            {step > 0 ? (
+                <Button
+                    variant="outline"
                     onClick={() => setStep((prev) => prev - 1)}
-                    className="px-4 py-2 bg-gray-300 rounded-lg hover:bg-gray-400"
+                    className="border-white/30 text-white hover:bg-white/10"
                 >
-                    Previous
-                </button>
+                    ← Previous
+                </Button>
+            ) : (
+                <div></div>
             )}
 
-            {/* Next Button (if not on the last step) */}
+            {/* Next/Submit Button */}
             {step < totalSteps - 1 ? (
-                <button
+                <Button
                     onClick={() => setStep((prev) => prev + 1)}
-                    className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+                    className="bg-gradient-to-r from-indigo-600 to-purple-600"
                 >
-                    Next
-                </button>
+                    Next →
+                </Button>
             ) : (
-                // Submit Button (on the last step)
-                <button
+                <Button
                     onClick={handleSubmit}
-                    className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
+                    className="bg-gradient-to-r from-green-600 to-blue-600"
                 >
-                    Submit
-                </button>
+                    Complete Setup ✓
+                </Button>
             )}
         </div>
     );

@@ -7,25 +7,20 @@ import StepNavigation from "./StepNavigation";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import { toast } from "react-hot-toast";
+import { useAuthContext } from "@/context/AuthContext";
+import Card from "@/components/ui/Card";
 
 const OnboardingForm = () => {
     const [step, setStep] = useState(0);
     const [formResponses, setFormResponses] = useState<{ [key: number]: any }>({});
-    const [isAuthenticated, setIsAuthenticated] = useState(false);
+    const { isLoggedIn, loading, checkAuth } = useAuthContext();
     const router = useRouter();
 
     useEffect(() => {
-        axios
-            .get("/api/auth/verify")
-            .then((res) => {
-                if (res.data.success) {
-                    setIsAuthenticated(true);
-                } else {
-                    router.push("/login");
-                }
-            })
-            .catch(() => router.push("/login"));
-    }, [router]);
+        if (!loading && !isLoggedIn) {
+            router.push("/login");
+        }
+    }, [isLoggedIn, loading, router]);
 
     const handleSubmit = async () => {
         try {
@@ -47,7 +42,8 @@ const OnboardingForm = () => {
             });
 
             if (res.data.success) {
-                toast.success("Onboarding details submitted successfully!");
+                toast.success("Profile setup completed successfully!");
+                await checkAuth(); // Refresh auth state
                 router.push("/dashboard");
             } else {
                 toast.error("Failed to submit onboarding details.");
@@ -58,20 +54,47 @@ const OnboardingForm = () => {
         }
     };
 
-    if (!isAuthenticated) return null;
+    if (loading) {
+        return (
+            <div className="min-h-screen flex items-center justify-center">
+                <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-white"></div>
+            </div>
+        );
+    }
+
+    if (!isLoggedIn) return null;
 
     return (
-        <div className="flex-1 flex items-center justify-center px-10">
-            <div className="bg-white p-12 rounded-2xl shadow-lg w-[700px] h-[500px] max-w-full flex flex-col">
-                <div className="flex flex-col justify-top">
-                    <h2 className="text-3xl font-bold text-gray-800 mb-4">Welcome to Skill Sync!</h2>
-                    <p className="text-gray-600">Let's get started by filling out a few details.</p>
+        <div className="min-h-screen flex items-center justify-center px-4 py-12">
+            <Card className="w-full max-w-4xl p-8" gradient>
+                <div className="text-center mb-8">
+                    <h2 className="text-4xl font-bold text-white mb-4">Welcome to SkillSync!</h2>
+                    <p className="text-purple-200 text-lg">
+                        Let's set up your profile to help you find the perfect study partners
+                    </p>
+                    
+                    {/* Progress Bar */}
+                    <div className="mt-6">
+                        <div className="flex justify-between text-sm text-purple-200 mb-2">
+                            <span>Step {step + 1} of 7</span>
+                            <span>{Math.round(((step + 1) / 7) * 100)}% Complete</span>
+                        </div>
+                        <div className="w-full bg-white/20 rounded-full h-2">
+                            <div 
+                                className="bg-gradient-to-r from-purple-400 to-pink-400 h-2 rounded-full transition-all duration-300"
+                                style={{ width: `${((step + 1) / 7) * 100}%` }}
+                            ></div>
+                        </div>
+                    </div>
                 </div>
-                <div className="flex-1">
-                    <FormSteps step={step} formResponses={formResponses} setFormResponses={setFormResponses} />
+
+                <div className="min-h-[400px] flex flex-col">
+                    <div className="flex-1">
+                        <FormSteps step={step} formResponses={formResponses} setFormResponses={setFormResponses} />
+                    </div>
                     <StepNavigation step={step} setStep={setStep} handleSubmit={handleSubmit} />
                 </div>
-            </div>
+            </Card>
         </div>
     );
 };

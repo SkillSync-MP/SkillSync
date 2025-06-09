@@ -1,4 +1,4 @@
-// src / app / login / page.tsx
+// src/app/login/page.tsx
 "use client";
 
 import { useEffect, useState } from "react";
@@ -6,6 +6,10 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { toast } from "react-hot-toast";
 import axios from "axios";
+import { useAuthContext } from "@/context/AuthContext";
+import Button from "@/components/ui/Button";
+import Input from "@/components/ui/Input";
+import Card from "@/components/ui/Card";
 
 export default function LoginPage() {
     const [user, setUser] = useState({
@@ -15,27 +19,19 @@ export default function LoginPage() {
     const [buttonDisabled, setButtonDisabled] = useState(true);
     const [loading, setLoading] = useState(false);
     const router = useRouter();
-
-    console.log("User state:", user);
-    console.log("Button disabled state:", buttonDisabled);
-    console.log("Loading state:", loading);
+    const { login } = useAuthContext();
 
     const handleLogin = async () => {
         try {
             setLoading(true);
             const response = await axios.post("/api/users/login", user);
-            console.log("Login success", response.data);
-            toast.success("Login successful");
-
-            // Check isOnboarded from token
-            const token = response.headers["set-cookie"]?.find((c) => c.includes("token"))?.split(";")[0].split("=")[1];
-            if (token) {
-                const decoded = await import("jsonwebtoken").then(({ verify }) =>
-                    verify(token, process.env.JWT_SECRET_KEY!) as { isOnboarded: boolean }
-                );
-                router.push(decoded.isOnboarded ? "/dashboard" : "/onboarding");
-            } else {
-                router.push("/onboarding");
+            
+            // Get user data from verify endpoint
+            const verifyResponse = await axios.get("/api/auth/verify");
+            if (verifyResponse.data.success) {
+                login(verifyResponse.data.user);
+                toast.success("Login successful");
+                router.push(verifyResponse.data.user.isOnboarded ? "/dashboard" : "/onboarding");
             }
         } catch (error: any) {
             console.log("Error during login:", error.message);
@@ -54,48 +50,62 @@ export default function LoginPage() {
     }, [user]);
 
     return (
-        <div className="w-full min-h-screen flex items-center justify-center">
-            <div className="w-full max-w-lg p-10 shadow-md rounded-lg bg-white/30 backdrop-blur-lg">
-                <h2 className="mb-6 text-4xl font-bold text-center text-black">
-                    {loading ? "Processing" : "Login"}
-                </h2>
-                <div className="mb-4">
-                    <label className="block mb-1 font-medium text-black">Email</label>
-                    <input
-                        id="email"
+        <div className="min-h-screen flex items-center justify-center px-4 py-12">
+            <Card className="w-full max-w-md p-8" gradient>
+                <div className="text-center mb-8">
+                    <h2 className="text-3xl font-bold text-white mb-2">
+                        Welcome Back
+                    </h2>
+                    <p className="text-purple-200">Sign in to your account</p>
+                </div>
+
+                <div className="space-y-6">
+                    <Input
                         type="email"
-                        className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
-                        value={user.email}
+                        label="Email"
                         placeholder="Enter your email"
+                        value={user.email}
                         onChange={(e) => setUser({ ...user, email: e.target.value })}
-                        required
+                        icon={
+                            <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                            </svg>
+                        }
                     />
-                </div>
-                <div className="mb-4">
-                    <label className="block mb-1 font-medium text-black">Password</label>
-                    <input
+
+                    <Input
                         type="password"
-                        className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
-                        value={user.password}
+                        label="Password"
                         placeholder="Enter your password"
+                        value={user.password}
                         onChange={(e) => setUser({ ...user, password: e.target.value })}
-                        required
+                        icon={
+                            <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                            </svg>
+                        }
                     />
+
+                    <Button
+                        onClick={handleLogin}
+                        disabled={buttonDisabled || loading}
+                        loading={loading}
+                        className="w-full"
+                        size="lg"
+                    >
+                        {loading ? "Signing in..." : "Sign In"}
+                    </Button>
                 </div>
-                <button
-                    className="w-full py-3 mt-4 font-semibold text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition"
-                    onClick={handleLogin}
-                    disabled={buttonDisabled || loading}
-                >
-                    Login
-                </button>
-                <p className="mt-4 text-sm text-center">
-                    Don't have an account?{" "}
-                    <Link href="/signup" className="text-green-500 hover:underline">
-                        Sign Up
-                    </Link>
-                </p>
-            </div>
+
+                <div className="mt-6 text-center">
+                    <p className="text-purple-200">
+                        Don't have an account?{" "}
+                        <Link href="/signup" className="text-white font-semibold hover:text-purple-200 transition-colors duration-200">
+                            Sign up
+                        </Link>
+                    </p>
+                </div>
+            </Card>
         </div>
     );
 }
