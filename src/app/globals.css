@@ -49,6 +49,7 @@
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -60,6 +61,7 @@
     opacity: 0;
     transform: translateX(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -106,8 +108,13 @@
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Focus styles */
@@ -141,7 +148,7 @@ input[type="email"],
 input[type="password"],
 textarea,
 select {
-  @apply focus-ring;
+  @apply focus:ring;
 }
 
 /* Responsive text sizes */
@@ -149,9 +156,11 @@ select {
   .text-responsive-xl {
     @apply text-2xl;
   }
+
   .text-responsive-2xl {
     @apply text-3xl;
   }
+
   .text-responsive-3xl {
     @apply text-4xl;
   }
@@ -161,9 +170,11 @@ select {
   .text-responsive-xl {
     @apply text-xl;
   }
+
   .text-responsive-2xl {
     @apply text-2xl;
   }
+
   .text-responsive-3xl {
     @apply text-3xl;
   }
