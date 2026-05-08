@@ -1,0 +1,227 @@
+user_id,name,branch,passing_year,career_path,known_skills,experience,learning_goal,availability
+1,Aanchal ,Civil engineering ,2025,AI & Machine Learning;Data Science & Analytics;Full Stack Web Development;Cyber Security,C/C++;Java;Python;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development;Backend Web Development (Python);Application Development (Flutter);Application Development (React Native);Artificial Intelligence and Machine Learning;Graphic Designing,No,C/C++;Java;Python;Cyber Security;Graphic Designing,7 - 8 hours per week
+2,Manasvi choudhari,Cse,2027,Mobile App Development (Android/iOS),Java;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development;Backend Web Development (MERN/MEAN),Yes,Java;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development;Backend Web Development (MERN/MEAN),17 - 18 hours per week
+3,Kirtee kardate,Computer science and engineering ,2025,AI & Machine Learning;Data Science & Analytics,Java;Python,No,DSA (Data Structures and Algorithm) or Competitive Programming,17 - 18 hours per week
+4,NISHANT HARDAHA ,Cse,2027,Frontend Web Development,C/C++,No,C/C++;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development,7 - 8 hours per week
+5,Neeraj Singnath,CSE,2027,AI & Machine Learning;Game Development,C/C++;Python,Yes,C/C++;Python;DSA (Data Structures and Algorithm) or Competitive Programming,15 - 16 hours per week
+6,Dewang Sharma ,Computer science engineering ,2027,Data Science & Analytics,C/C++;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development;MySQL/NoSQL,No,MySQL/NoSQL,9 - 10  hours per week
+7,HARSH JAT,CSE,2027,AI & Machine Learning;Data Science & Analytics;Cloud Computing,C/C++;Java;Python;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;Frontend Web Development;Backend Web Development (MERN/MEAN);Cloud Computing,Yes,Backend Web Development (MERN/MEAN);Cloud Computing,11 - 12 hours per week
+8,Vaibhav Soni,CSE,2026,AI & Machine Learning;Full Stack Web Development,C/C++;Python;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development,Yes,DSA (Data Structures and Algorithm) or Competitive Programming;Backend Web Development (MERN/MEAN);Artificial Intelligence and Machine Learning;Cloud Computing,11 - 12 hours per week
+9,Chhavi Balmik ,Computer science and engineering ,2027,AI & Machine Learning;Data Science & Analytics,Java;Python,No,Python;MySQL/NoSQL,7 - 8 hours per week
+10,Aparna Patel,Computer Science,2027,Full Stack Web Development;Frontend Web Development;Backend Web Development,C/C++;Java;DSA (Data Structures and Algorithm) or Competitive Programming,Yes,Java;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development;Backend Web Development (MERN/MEAN),9 - 10  hours per week
+11,Yashti Choudhary,CSE,2027,AI & Machine Learning;Data Science & Analytics;Cloud Computing;Cyber Security,C/C++;Java;Frontend Web Development;MySQL/NoSQL,Yes,Python;DSA (Data Structures and Algorithm) or Competitive Programming,7 - 8 hours per week
+12,Dhruv Gupta ,CSE,2028,AI & Machine Learning;Data Science & Analytics;Full Stack Web Development;Frontend Web Development;Backend Web Development;Cloud Computing,C/C++;Python;Frontend Web Development;MySQL/NoSQL,Yes,DSA (Data Structures and Algorithm) or Competitive Programming,9 - 10  hours per week
+13,Pankaj Sharma ,CSE,2026,AI & Machine Learning,C/C++;Java;Python;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;Frontend Web Development;MySQL/NoSQL,No,Java;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;Frontend Web Development;MySQL/NoSQL,17 - 18 hours per week
+14,RITIK PATIDAR,CSE,2026,Data Science & Analytics,C/C++,No,Python;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development,7 - 8 hours per week
+15,Dhruv Mukati ,Computer science and engineering ,2026,AI & Machine Learning;Data Science & Analytics,C/C++;Python;DSA (Data Structures and Algorithm) or Competitive Programming;Artificial Intelligence and Machine Learning,No,C/C++;Python;DSA (Data Structures and Algorithm) or Competitive Programming;Artificial Intelligence and Machine Learning,9 - 10  hours per week
+16,Sanjeev Pandit ,CSE,2026,AI & Machine Learning;Full Stack Web Development;Mobile App Development (Android/iOS),Java;Python;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development;Backend Web Development (MERN/MEAN);Application Development (Flutter);Artificial Intelligence and Machine Learning,Yes,Java;Backend Web Development (MERN/MEAN);Artificial Intelligence and Machine Learning,11 - 12 hours per week
+17,Umesh Sangulle,Computer science and engineering,2026,Full Stack Web Development,C/C++;Python;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development;Backend Web Development (Python),Yes,C/C++;Python;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development;Backend Web Development (Python),7 - 8 hours per week
+18,Apar Verma ,CSE,2028,AI & Machine Learning;Full Stack Web Development;Govt jobs ,C/C++,No,DSA (Data Structures and Algorithm) or Competitive Programming,15 - 16 hours per week
+19,Aaditya kamle ,Electronics and communication engineering ,2026,I am interested in VLSI field ,C/C++,No,C/C++,9 - 10  hours per week
+20,Vandana navrang ,C.s.e,2024,Frontend Web Development,I am learning dsa but now I am not well ,No,DSA (Data Structures and Algorithm) or Competitive Programming,7 - 8 hours per week
+21,Juhika Lalawat ,Computer science ,2024,AI & Machine Learning,C/C++;Java;Python;Cloud Computing;Cyber Security;Graphic Designing,No,C/C++,13 - 14 hours per week
+22,Shivanshu Chimaniya ,CSE,2026,Full Stack Web Development;Mobile App Development (Android/iOS),Java;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;Frontend Web Development;Backend Web Development (MERN/MEAN);MySQL/NoSQL,No,Application Development (Flutter);Blockchain;DevOps,15 - 16 hours per week
+23,Mohammad Faizan ,Ece,2026,Full Stack Web Development,Java;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;Frontend Web Development,No,Java;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;Frontend Web Development;DevOps;GATE CSE/DA,15 - 16 hours per week
+24,Sameer Mohammed,Cse,2027,Mobile App Development (Android/iOS),DSA (Data Structures and Algorithm) or Competitive Programming;Application Development (Flutter),No,DSA (Data Structures and Algorithm) or Competitive Programming;Application Development (Flutter),11 - 12 hours per week
+25,Vaishnavi kanera ,Computer Science and Engineering ,2026,AI & Machine Learning;Cyber Security,C/C++;Python;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;Frontend Web Development;Cyber Security,Yes,DSA (Data Structures and Algorithm) or Competitive Programming;Backend Web Development (MERN/MEAN);Artificial Intelligence and Machine Learning,9 - 10  hours per week
+26,Natasha Gehlod ,Electronic and communication engineering ,2026,Frontend Web Development,Python,Yes,Frontend Web Development,7 - 8 hours per week
+27,Priyanshu ,CSE ,2027,Mobile App Development (Android/iOS);Game Development,C/C++;Java;Python;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;MySQL/NoSQL,No,Python,7 - 8 hours per week
+28,Piyush Khodani ,CSE,2028,Full Stack Web Development;Mobile App Development (Android/iOS);Cloud Computing;Cyber Security,Java,No,Java,15 - 16 hours per week
+29,Punit Chouhan ,CSE,2027,Full Stack Web Development,Java;Python;Frontend Web Development;Backend Web Development (Python),No,Python;Frontend Web Development;Backend Web Development (Python),7 - 8 hours per week
+30,Vipin amre,Cse,2027,Cyber Security,C/C++;Java;Python;Frontend Web Development;Cyber Security;MySQL/NoSQL,No,C/C++;Java;Python;Cyber Security;MySQL/NoSQL,9 - 10  hours per week
+31,Swapnil Gupta,Computer science and engineering,2027,Data Science & Analytics;Full Stack Web Development;Mobile App Development (Android/iOS),Java;DSA (Data Structures and Algorithm) or Competitive Programming;Backend Web Development (MERN/MEAN),Yes,Java;DSA (Data Structures and Algorithm) or Competitive Programming;Backend Web Development (MERN/MEAN);Application Development (Flutter);Application Development (React Native);MySQL/NoSQL;Graphic Designing,9 - 10  hours per week
+32,Aditi Rathore ,CSE,2028,AI & Machine Learning;Full Stack Web Development,C/C++;Frontend Web Development;Artificial Intelligence and Machine Learning,Yes,C/C++;Frontend Web Development;Artificial Intelligence and Machine Learning,7 - 8 hours per week
+33,Samir parmar,CSE,2027-2028,Data Science & Analytics,C/C++;Python;OOPS;Artificial Intelligence and Machine Learning,No,C/C++;Python;OOPS,7 - 8 hours per week
+34,Lakshya kumrawat ,CSE,2027,Full stack (java),Java;Spring boot (learning),No,Java;DSA (Data Structures and Algorithm) or Competitive Programming;Artificial Intelligence and Machine Learning,7 - 8 hours per week
+35,Pranshu Bhatt,Computer Science,2026,AI & Machine Learning;Full Stack Web Development;Mobile App Development (Android/iOS);Cloud Computing,C/C++;Python;Frontend Web Development,No,C/C++;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development;Artificial Intelligence and Machine Learning;GATE CSE/DA,15 - 16 hours per week
+36,Uday pawar,Electronics and communication ,2027,AI & Machine Learning;Data Science & Analytics,Python;Artificial Intelligence and Machine Learning;MySQL/NoSQL,No,Python;Artificial Intelligence and Machine Learning;MySQL/NoSQL,13 - 14 hours per week
+37,Sakesh Rathore ,Ec,2027,AI & Machine Learning;Data Science & Analytics;Cloud Computing,Python;DSA (Data Structures and Algorithm) or Competitive Programming;Artificial Intelligence and Machine Learning;Cloud Computing,No,DSA (Data Structures and Algorithm) or Competitive Programming,11 - 12 hours per week
+38,Muskan rai ,Electronics and communication ,2027,AI & Machine Learning,DSA (Data Structures and Algorithm) or Competitive Programming,Yes,Artificial Intelligence and Machine Learning;Cyber Security,9 - 10  hours per week
+39,Sushobhit Jajoriya ,Electronic communication engineering ,2027,Frontend Web Development,Java;Frontend Web Development,No,Java;Frontend Web Development,7 - 8 hours per week
+40,Bhavya Mantri ,Electrical engineering ,2028,AI & Machine Learning;Data Science & Analytics;Full Stack Web Development,Graphic Designing,No,Python,13 - 14 hours per week
+41,Nayan Mungre,Electrical Engineering,2028,Full Stack Web Development,C/C++,No,Frontend Web Development;Backend Web Development (MERN/MEAN),7 - 8 hours per week
+42,Prankur Patel,Electrical engineering ,2028,Full Stack Web Development,Python;Graphic Designing,Yes,Python;Graphic Designing,9 - 10  hours per week
+43,Harshit Rai ,Electrical Engineering  ,2028,Cyber Security,Python,No,Python,7 - 8 hours per week
+44,Sakshi grawal,Ec,2027,Data Science & Analytics;Frontend Web Development,C/C++;Python;Frontend Web Development;Backend Web Development (Python);MySQL/NoSQL,No,Python;DSA (Data Structures and Algorithm) or Competitive Programming;Application Development (React Native),9 - 10  hours per week
+45,RUDRANSH MISHRA,ECE,2026,NUCLEAR FUSION ENGINEERING IN SPACE SECTOR,Python;DSA (Data Structures and Algorithm) or Competitive Programming;Application Development (React Native);Artificial Intelligence and Machine Learning,No,Python;DSA (Data Structures and Algorithm) or Competitive Programming;Artificial Intelligence and Machine Learning;VON NEUMANN PROBES IF I GET MILLION DOLLARS,7 - 8 hours per week
+46,Harshika Kamde ,Electrical Engineering ,2027-2028,AI & Machine Learning;Data Science & Analytics;Cyber Security,C/C++,No,C/C++;OOPS,9 - 10  hours per week
+47,Ayushi Soni ,Electrical ,2028,Data Science & Analytics;Cloud Computing,C/C++;Python;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;Cloud Computing,No,Python,13 - 14 hours per week
+48,Ankit Varma,EC,2026,Full Stack Web Development;Frontend Web Development;Backend Web Development;Entrepreneur,C/C++;Java;Frontend Web Development;Graphic Designing,No,C/C++;Java;Frontend Web Development;Backend Web Development (MERN/MEAN);Backend Web Development (Python);Graphic Designing,13 - 14 hours per week
+49,Shreyas Shubham,ECE,2027,AI & Machine Learning;Data Science & Analytics,Java;Python;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;Artificial Intelligence and Machine Learning;MySQL/NoSQL,No,Java;Python;DSA (Data Structures and Algorithm) or Competitive Programming,9 - 10  hours per week
+50,Jyoti Nayak,Electronics and communication engineering branch ,2026,Full Stack Web Development;,C/C++;Python;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development,No,Placement ,17 - 18 hours per week
+51,Vaidika Nikhoriya ,CSE,2026,AI & Machine Learning;Full Stack Web Development,C/C++;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;Frontend Web Development;Cyber Security;MySQL/NoSQL,No,C/C++;Python;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development;Backend Web Development (MERN/MEAN);Artificial Intelligence and Machine Learning,11 - 12 hours per week
+52,Yukta Choudhary ,Computer scuence and engineering ,2026,AI & Machine Learning;Data Science & Analytics;Full Stack Web Development,C/C++;Python;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;Backend Web Development (Python);MySQL/NoSQL,Yes,Python;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;Backend Web Development (MERN/MEAN);Backend Web Development (Python);Artificial Intelligence and Machine Learning;Placement ,9 - 10  hours per week
+53,Satyam pandey,CSE,2026,AI & Machine Learning;Full Stack Web Development;Mobile App Development (Android/iOS);Cloud Computing,C/C++;Python;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development;Backend Web Development (MERN/MEAN),No,C/C++;DSA (Data Structures and Algorithm) or Competitive Programming;Backend Web Development (MERN/MEAN);Application Development (React Native);Artificial Intelligence and Machine Learning,13 - 14 hours per week
+54,Radhe lilhore,Cse ,2026,AI & Machine Learning;Data Science & Analytics,C/C++;Java;Python;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;Frontend Web Development;Backend Web Development (MERN/MEAN);MySQL/NoSQL,No,Artificial Intelligence and Machine Learning;GATE CSE/DA,9 - 10  hours per week
+55,Mugdha Choudhary ,Computer Science Engineering ,2026,AI & Machine Learning;Data Science & Analytics;Full Stack Web Development,Java;OOPS;MySQL/NoSQL,Yes,Java;DSA (Data Structures and Algorithm) or Competitive Programming;OOPS;Frontend Web Development;Backend Web Development (MERN/MEAN),7 - 8 hours per week
+56,Shristi Choubey,Electrical Engineering,2025,AI & Machine Learning,Python;Blockchain,No,Java;Python;Blockchain,11 - 12 hours per week
+57,Shivani Ray ,"Electronic and communication,engineering ",2026,AI & Machine Learning,Java;Python;DSA (Data Structures and Algorithm) or Competitive Programming,No,Python,7 - 8 hours per week
+58,Deshana Jain,Computter science and engineering,2026,AI & Machine Learning;Data Science & Analytics;Full Stack Web Development,C/C++;Python;DSA (Data Structures and Algorithm) or Competitive Programming;Frontend Web Development;Backend Web Development (Python);Artificial Intelligence and Machine Learning,Yes,Python;DSA (Data Structures and Algorithm) or Competitive Programming;Backend Web Development (Python);Artificial Intelligence and Machine Learning,7 - 8 hours per week
+59,Xavier Adams,Electronics,2028,"Cybersecurity, AI/ML","SQL, Cloud Computing, Python",No,Contribute to Open Source,5 - 6 hours per week
+60,William Herman,Computer Science,2027,"Cybersecurity, Blockchain, AI/ML","Cloud Computing, AI/ML, Cybersecurity, JavaScript",Yes,Become a Full Stack Developer,7 - 8 hours per week
+61,Darrell Torres,Mechanical,2026,"AI/ML, SQL, Cybersecurity, Python","SQL, Cybersecurity, Python, JavaScript",No,Learn Blockchain,11 - 12 hours per week
+62,Eddie Chapman,Information Technology,2027,"Python, Data Science, Cybersecurity, AI/ML","Java, AI/ML, Data Science",No,Contribute to Open Source,7 - 8 hours per week
+63,Kristin Mclean,Computer Science,2026,"C++, AI/ML, Cloud Computing","Data Science, SQL",Yes,Learn Blockchain,9 - 10 hours per week
+64,Edward Gonzales,Civil,2028,"AI/ML, Java","Blockchain, SQL, Java",No,Prepare for Competitive Programming,9 - 10 hours per week
+65,Benjamin Mitchell,Electrical,2026,"Blockchain, Java","Cybersecurity, Blockchain, Cloud Computing, JavaScript",No,Learn Blockchain,7 - 8 hours per week
+66,Jay Hodges,Electrical,2026,"AI/ML, Cybersecurity","Cloud Computing, Blockchain, C++",Yes,Contribute to Open Source,5 - 6 hours per week
+67,Bradley Lozano,Mechanical,2026,"Python, C++","Cloud Computing, AI/ML, Data Science, SQL",No,Prepare for Competitive Programming,5 - 6 hours per week
+68,Stephen Jones,Electrical,2027,"SQL, C++, Java, Python","Blockchain, Data Science",Yes,Enhance Cybersecurity Knowledge,7 - 8 hours per week
+69,Sarah Weeks,Electronics,2028,"Python, C++, Data Science, Blockchain","Java, C++, Data Science, Blockchain",Yes,Enhance Cybersecurity Knowledge,11 - 12 hours per week
+70,Darius Ewing,Electronics,2027,"Blockchain, JavaScript","Cloud Computing, Java, JavaScript",No,Enhance Cybersecurity Knowledge,11 - 12 hours per week
+71,Daniel Leon,Computer Science,2026,"Cloud Computing, C++, Cybersecurity, SQL","Java, AI/ML, Python, Blockchain",Yes,Master Web Development,11 - 12 hours per week
+72,Alexander Perez,Mechanical,2028,"Data Science, AI/ML, SQL","C++, Data Science, Cybersecurity",No,Prepare for Competitive Programming,13 - 14 hours per week
+73,Peter Jones,Civil,2026,"JavaScript, Cybersecurity, AI/ML, Cloud Computing","JavaScript, Blockchain, Cybersecurity",No,Prepare for Competitive Programming,13 - 14 hours per week
+74,Brent Fischer,Electronics,2026,"AI/ML, SQL, Java, Cloud Computing","Data Science, AI/ML, JavaScript, Blockchain",Yes,Become a Full Stack Developer,13 - 14 hours per week
+75,William Brown,Computer Science,2027,"Python, Blockchain, Cloud Computing","SQL, Cybersecurity, Cloud Computing, C++",No,Prepare for Competitive Programming,9 - 10 hours per week
+76,Stacey Levine,Mechanical,2025,"Cloud Computing, Python","SQL, Data Science, C++",No,Become a Full Stack Developer,9 - 10 hours per week
+77,Tiffany Hernandez,Electronics,2027,"Cloud Computing, Data Science, Cybersecurity, Blockchain","Blockchain, JavaScript",Yes,Master Web Development,11 - 12 hours per week
+78,Jennifer Flores,Computer Science,2027,"Cybersecurity, SQL, AI/ML","SQL, JavaScript, Cloud Computing, Data Science",Yes,Contribute to Open Source,9 - 10 hours per week
+79,Eugene Cox,Information Technology,2027,"Python, SQL, JavaScript, Cloud Computing","AI/ML, Data Science",No,Contribute to Open Source,5 - 6 hours per week
+80,Karen Hartman,Mechanical,2027,"AI/ML, Cloud Computing","Blockchain, Cloud Computing, Java, Python",No,Learn Blockchain,9 - 10 hours per week
+81,Chad Evans,Mechanical,2025,"Python, Data Science, Blockchain, JavaScript","Java, AI/ML, SQL",Yes,Master Web Development,11 - 12 hours per week
+82,Joyce Duncan,Information Technology,2027-2028,"Blockchain, SQL","Python, Blockchain, SQL, AI/ML",No,Contribute to Open Source,9 - 10 hours per week
+83,Daniel Anderson,Civil,2028,"Cybersecurity, Java, SQL","C++, Cybersecurity",No,Master Web Development,7 - 8 hours per week
+84,Kara Richard,Computer Science,2026,"C++, AI/ML","Cybersecurity, Blockchain",No,Enhance Cybersecurity Knowledge,7 - 8 hours per week
+85,Benjamin Glass,Mechanical,2025,"SQL, Cloud Computing, Cybersecurity, Python","Python, Java, Cloud Computing, Blockchain",Yes,Prepare for Competitive Programming,11 - 12 hours per week
+86,Stephanie Acosta,Computer Science,2027,"Java, Cloud Computing","AI/ML, JavaScript",No,Become a Full Stack Developer,11 - 12 hours per week
+87,Michael House,Civil,2027-2028,"Java, AI/ML","JavaScript, Blockchain",Yes,Learn Blockchain,13 - 14 hours per week
+88,Zachary Mccoy,Electrical,2027,"C++, Java, Cybersecurity, Blockchain","AI/ML, JavaScript, Python",No,Master Web Development,5 - 6 hours per week
+89,Kimberly Woods,Electrical,2027-2028,"Cloud Computing, Cybersecurity, Java, Blockchain","SQL, JavaScript",No,Master Web Development,5 - 6 hours per week
+90,Mr. Kirk Hill MD,Electrical,2028,"C++, Python","JavaScript, Cloud Computing, Cybersecurity, Python",No,Master Web Development,13 - 14 hours per week
+91,Valerie Hammond,Mechanical,2027,"Python, JavaScript, Cloud Computing, Data Science","AI/ML, Data Science",No,Learn Blockchain,13 - 14 hours per week
+92,Eddie Caldwell,Electronics,2026,"AI/ML, Python, Cybersecurity, Blockchain","Blockchain, Data Science",No,Prepare for Competitive Programming,13 - 14 hours per week
+93,Kara Franco,Civil,2027-2028,"Python, JavaScript","Data Science, C++",Yes,Improve AI skills,7 - 8 hours per week
+94,Tammy Pierce,Mechanical,2027,"Java, Cloud Computing","Python, JavaScript, Data Science, Blockchain",Yes,Contribute to Open Source,7 - 8 hours per week
+95,Kelly Owens,Information Technology,2026,"AI/ML, SQL, C++, Python","Python, Cloud Computing, C++",Yes,Become a Full Stack Developer,5 - 6 hours per week
+96,Carmen Marsh,Electronics,2026,"C++, Java, Data Science","JavaScript, Data Science, C++, Cloud Computing",No,Learn Blockchain,9 - 10 hours per week
+97,Jeffrey Williams,Computer Science,2028,"AI/ML, Blockchain, JavaScript, SQL","Data Science, C++, Python",No,Master Web Development,13 - 14 hours per week
+98,Jacqueline Robinson DDS,Mechanical,2027,"Java, Data Science, JavaScript","Cybersecurity, SQL, Blockchain, Data Science",No,Enhance Cybersecurity Knowledge,11 - 12 hours per week
+99,Angela Durham,Civil,2026,"SQL, Blockchain, Data Science, Cybersecurity","JavaScript, C++, SQL, Cloud Computing",Yes,Master Web Development,7 - 8 hours per week
+100,Devon Brennan,Electrical,2025,"Cybersecurity, AI/ML, Data Science, JavaScript","JavaScript, SQL",No,Learn Blockchain,11 - 12 hours per week
+101,Jackson Woods,Civil,2027,"AI/ML, Cloud Computing","Cybersecurity, SQL, C++, AI/ML",No,Become a Full Stack Developer,11 - 12 hours per week
+102,Matthew Allen,Information Technology,2027-2028,"Data Science, Cybersecurity, Python","AI/ML, Blockchain, Cloud Computing",Yes,Prepare for Competitive Programming,11 - 12 hours per week
+103,Stephanie Cook,Computer Science,2028,"Data Science, Blockchain","Blockchain, C++",No,Learn Blockchain,9 - 10 hours per week
+104,Andrea Monroe,Electrical,2026,"SQL, Python, Java","Blockchain, Cybersecurity, Java",No,Learn Blockchain,13 - 14 hours per week
+105,Tiffany Wright,Mechanical,2026,"Blockchain, Cybersecurity, SQL","Java, Cloud Computing",No,Learn Blockchain,13 - 14 hours per week
+106,Summer Murray,Electronics,2028,"Java, Data Science","C++, Cybersecurity, Data Science",Yes,Prepare for Competitive Programming,7 - 8 hours per week
+107,Robert Brooks,Mechanical,2028,"Blockchain, Python, Cloud Computing, JavaScript","Blockchain, Java",No,Improve AI skills,13 - 14 hours per week
+108,Andrew Farmer,Civil,2026,"Data Science, JavaScript, Java, AI/ML","C++, Cloud Computing, AI/ML",No,Contribute to Open Source,5 - 6 hours per week
+109,April Roberts,Electrical,2026,"Java, JavaScript, C++, AI/ML","C++, Java, SQL, AI/ML",No,Master Web Development,7 - 8 hours per week
+110,Catherine Garcia,Mechanical,2026,"Java, JavaScript","AI/ML, C++, Python",No,Improve AI skills,7 - 8 hours per week
+111,Kathleen Manning,Electronics,2026,"C++, Cloud Computing, SQL","JavaScript, Cloud Computing, SQL, Blockchain",No,Enhance Cybersecurity Knowledge,7 - 8 hours per week
+112,Lisa Mckee,Mechanical,2027,"Cybersecurity, Data Science, Blockchain, Java","Python, C++, Data Science",Yes,Master Web Development,7 - 8 hours per week
+113,Bryan Donovan,Civil,2026,"Java, C++, JavaScript, Cloud Computing","Java, SQL",No,Prepare for Competitive Programming,7 - 8 hours per week
+114,Jacob Mahoney,Information Technology,2027,"Cybersecurity, Java","Cybersecurity, Data Science",No,Master Web Development,7 - 8 hours per week
+115,Jessica King,Civil,2027,"C++, AI/ML, Cloud Computing, SQL","Cloud Computing, Java, Blockchain, C++",Yes,Prepare for Competitive Programming,9 - 10 hours per week
+116,Susan Flores,Computer Science,2026,"AI/ML, C++, Cloud Computing","Cloud Computing, Data Science",Yes,Become a Full Stack Developer,9 - 10 hours per week
+117,Xavier Adams,Electronics,2028,"Cybersecurity, AI/ML","SQL, Cloud Computing, Python",No,Contribute to Open Source,5 - 6 hours per week
+118,Xavier Adams,Electronics,2028,"Cybersecurity, AI/ML","SQL, Cloud Computing, Python",No,Contribute to Open Source,5 - 6 hours per week
+119,William Herman,Computer Science,2027,"Cybersecurity, Blockchain, AI/ML","Cloud Computing, AI/ML, Cybersecurity, JavaScript",Yes,Become a Full Stack Developer,7 - 8 hours per week
+120,William Herman,Computer Science,2027,"Cybersecurity, Blockchain, AI/ML","Cloud Computing, AI/ML, Cybersecurity, JavaScript",Yes,Become a Full Stack Developer,7 - 8 hours per week
+121,Darrell Torres,Mechanical,2026,"AI/ML, SQL, Cybersecurity, Python","SQL, Cybersecurity, Python, JavaScript",No,Learn Blockchain,11 - 12 hours per week
+122,Darrell Torres,Mechanical,2026,"AI/ML, SQL, Cybersecurity, Python","SQL, Cybersecurity, Python, JavaScript",No,Learn Blockchain,11 - 12 hours per week
+123,Eddie Chapman,Information Technology,2027,"Python, Data Science, Cybersecurity, AI/ML","Java, AI/ML, Data Science",No,Contribute to Open Source,7 - 8 hours per week
+124,Eddie Chapman,Information Technology,2027,"Python, Data Science, Cybersecurity, AI/ML","Java, AI/ML, Data Science",No,Contribute to Open Source,7 - 8 hours per week
+125,Kristin Mclean,Computer Science,2026,"C++, AI/ML, Cloud Computing","Data Science, SQL",Yes,Learn Blockchain,9 - 10 hours per week
+126,Kristin Mclean,Computer Science,2026,"C++, AI/ML, Cloud Computing","Data Science, SQL",Yes,Learn Blockchain,9 - 10 hours per week
+127,Edward Gonzales,Civil,2028,"AI/ML, Java","Blockchain, SQL, Java",No,Prepare for Competitive Programming,9 - 10 hours per week
+128,Edward Gonzales,Civil,2028,"AI/ML, Java","Blockchain, SQL, Java",No,Prepare for Competitive Programming,9 - 10 hours per week
+129,Benjamin Mitchell,Electrical,2026,"Blockchain, Java","Cybersecurity, Blockchain, Cloud Computing, JavaScript",No,Learn Blockchain,7 - 8 hours per week
+130,Benjamin Mitchell,Electrical,2026,"Blockchain, Java","Cybersecurity, Blockchain, Cloud Computing, JavaScript",No,Learn Blockchain,7 - 8 hours per week
+131,Jay Hodges,Electrical,2026,"AI/ML, Cybersecurity","Cloud Computing, Blockchain, C++",Yes,Contribute to Open Source,5 - 6 hours per week
+132,Jay Hodges,Electrical,2026,"AI/ML, Cybersecurity","Cloud Computing, Blockchain, C++",Yes,Contribute to Open Source,5 - 6 hours per week
+133,Bradley Lozano,Mechanical,2026,"Python, C++","Cloud Computing, AI/ML, Data Science, SQL",No,Prepare for Competitive Programming,5 - 6 hours per week
+134,Bradley Lozano,Mechanical,2026,"Python, C++","Cloud Computing, AI/ML, Data Science, SQL",No,Prepare for Competitive Programming,5 - 6 hours per week
+135,Stephen Jones,Electrical,2027,"SQL, C++, Java, Python","Blockchain, Data Science",Yes,Enhance Cybersecurity Knowledge,7 - 8 hours per week
+136,Stephen Jones,Electrical,2027,"SQL, C++, Java, Python","Blockchain, Data Science",Yes,Enhance Cybersecurity Knowledge,7 - 8 hours per week
+137,Sarah Weeks,Electronics,2028,"Python, C++, Data Science, Blockchain","Java, C++, Data Science, Blockchain",Yes,Enhance Cybersecurity Knowledge,11 - 12 hours per week
+138,Sarah Weeks,Electronics,2028,"Python, C++, Data Science, Blockchain","Java, C++, Data Science, Blockchain",Yes,Enhance Cybersecurity Knowledge,11 - 12 hours per week
+139,Darius Ewing,Electronics,2027,"Blockchain, JavaScript","Cloud Computing, Java, JavaScript",No,Enhance Cybersecurity Knowledge,11 - 12 hours per week
+140,Darius Ewing,Electronics,2027,"Blockchain, JavaScript","Cloud Computing, Java, JavaScript",No,Enhance Cybersecurity Knowledge,11 - 12 hours per week
+141,Daniel Leon,Computer Science,2026,"Cloud Computing, C++, Cybersecurity, SQL","Java, AI/ML, Python, Blockchain",Yes,Master Web Development,11 - 12 hours per week
+142,Daniel Leon,Computer Science,2026,"Cloud Computing, C++, Cybersecurity, SQL","Java, AI/ML, Python, Blockchain",Yes,Master Web Development,11 - 12 hours per week
+143,Alexander Perez,Mechanical,2028,"Data Science, AI/ML, SQL","C++, Data Science, Cybersecurity",No,Prepare for Competitive Programming,13 - 14 hours per week
+144,Alexander Perez,Mechanical,2028,"Data Science, AI/ML, SQL","C++, Data Science, Cybersecurity",No,Prepare for Competitive Programming,13 - 14 hours per week
+145,Peter Jones,Civil,2026,"JavaScript, Cybersecurity, AI/ML, Cloud Computing","JavaScript, Blockchain, Cybersecurity",No,Prepare for Competitive Programming,13 - 14 hours per week
+146,Peter Jones,Civil,2026,"JavaScript, Cybersecurity, AI/ML, Cloud Computing","JavaScript, Blockchain, Cybersecurity",No,Prepare for Competitive Programming,13 - 14 hours per week
+147,Brent Fischer,Electronics,2026,"AI/ML, SQL, Java, Cloud Computing","Data Science, AI/ML, JavaScript, Blockchain",Yes,Become a Full Stack Developer,13 - 14 hours per week
+148,Brent Fischer,Electronics,2026,"AI/ML, SQL, Java, Cloud Computing","Data Science, AI/ML, JavaScript, Blockchain",Yes,Become a Full Stack Developer,13 - 14 hours per week
+149,William Brown,Computer Science,2027,"Python, Blockchain, Cloud Computing","SQL, Cybersecurity, Cloud Computing, C++",No,Prepare for Competitive Programming,9 - 10 hours per week
+150,William Brown,Computer Science,2027,"Python, Blockchain, Cloud Computing","SQL, Cybersecurity, Cloud Computing, C++",No,Prepare for Competitive Programming,9 - 10 hours per week
+151,Stacey Levine,Mechanical,2025,"Cloud Computing, Python","SQL, Data Science, C++",No,Become a Full Stack Developer,9 - 10 hours per week
+152,Stacey Levine,Mechanical,2025,"Cloud Computing, Python","SQL, Data Science, C++",No,Become a Full Stack Developer,9 - 10 hours per week
+153,Tiffany Hernandez,Electronics,2027,"Cloud Computing, Data Science, Cybersecurity, Blockchain","Blockchain, JavaScript",Yes,Master Web Development,11 - 12 hours per week
+154,Tiffany Hernandez,Electronics,2027,"Cloud Computing, Data Science, Cybersecurity, Blockchain","Blockchain, JavaScript",Yes,Master Web Development,11 - 12 hours per week
+155,Jennifer Flores,Computer Science,2027,"Cybersecurity, SQL, AI/ML","SQL, JavaScript, Cloud Computing, Data Science",Yes,Contribute to Open Source,9 - 10 hours per week
+156,Jennifer Flores,Computer Science,2027,"Cybersecurity, SQL, AI/ML","SQL, JavaScript, Cloud Computing, Data Science",Yes,Contribute to Open Source,9 - 10 hours per week
+157,Eugene Cox,Information Technology,2027,"Python, SQL, JavaScript, Cloud Computing","AI/ML, Data Science",No,Contribute to Open Source,5 - 6 hours per week
+158,Eugene Cox,Information Technology,2027,"Python, SQL, JavaScript, Cloud Computing","AI/ML, Data Science",No,Contribute to Open Source,5 - 6 hours per week
+159,Karen Hartman,Mechanical,2027,"AI/ML, Cloud Computing","Blockchain, Cloud Computing, Java, Python",No,Learn Blockchain,9 - 10 hours per week
+160,Chad Evans,Mechanical,2025,"Python, Data Science, Blockchain, JavaScript","Java, AI/ML, SQL",Yes,Master Web Development,11 - 12 hours per week
+161,Chad Evans,Mechanical,2025,"Python, Data Science, Blockchain, JavaScript","Java, AI/ML, SQL",Yes,Master Web Development,11 - 12 hours per week
+162,Joyce Duncan,Information Technology,2027-2028,"Blockchain, SQL","Python, Blockchain, SQL, AI/ML",No,Contribute to Open Source,9 - 10 hours per week
+163,Joyce Duncan,Information Technology,2027-2028,"Blockchain, SQL","Python, Blockchain, SQL, AI/ML",No,Contribute to Open Source,9 - 10 hours per week
+164,Daniel Anderson,Civil,2028,"Cybersecurity, Java, SQL","C++, Cybersecurity",No,Master Web Development,7 - 8 hours per week
+165,Daniel Anderson,Civil,2028,"Cybersecurity, Java, SQL","C++, Cybersecurity",No,Master Web Development,7 - 8 hours per week
+166,Kara Richard,Computer Science,2026,"C++, AI/ML","Cybersecurity, Blockchain",No,Enhance Cybersecurity Knowledge,7 - 8 hours per week
+167,Kara Richard,Computer Science,2026,"C++, AI/ML","Cybersecurity, Blockchain",No,Enhance Cybersecurity Knowledge,7 - 8 hours per week
+168,Benjamin Glass,Mechanical,2025,"SQL, Cloud Computing, Cybersecurity, Python","Python, Java, Cloud Computing, Blockchain",Yes,Prepare for Competitive Programming,11 - 12 hours per week
+169,Benjamin Glass,Mechanical,2025,"SQL, Cloud Computing, Cybersecurity, Python","Python, Java, Cloud Computing, Blockchain",Yes,Prepare for Competitive Programming,11 - 12 hours per week
+170,Tammy Pierce,Mechanical,2027,"Java, Cloud Computing","Python, JavaScript, Data Science, Blockchain",Yes,Contribute to Open Source,7 - 8 hours per week
+171,Michael House,Civil,2027-2028,"Java, AI/ML","JavaScript, Blockchain",Yes,Learn Blockchain,13 - 14 hours per week
+172,Michael House,Civil,2027-2028,"Java, AI/ML","JavaScript, Blockchain",Yes,Learn Blockchain,13 - 14 hours per week
+173,Zachary Mccoy,Electrical,2027,"C++, Java, Cybersecurity, Blockchain","AI/ML, JavaScript, Python",No,Master Web Development,5 - 6 hours per week
+174,Zachary Mccoy,Electrical,2027,"C++, Java, Cybersecurity, Blockchain","AI/ML, JavaScript, Python",No,Master Web Development,5 - 6 hours per week
+175,Kimberly Woods,Electrical,2027-2028,"Cloud Computing, Cybersecurity, Java, Blockchain","SQL, JavaScript",No,Master Web Development,5 - 6 hours per week
+176,Kimberly Woods,Electrical,2027-2028,"Cloud Computing, Cybersecurity, Java, Blockchain","SQL, JavaScript",No,Master Web Development,5 - 6 hours per week
+177,Mr. Kirk Hill MD,Electrical,2028,"C++, Python","JavaScript, Cloud Computing, Cybersecurity, Python",No,Master Web Development,13 - 14 hours per week
+178,Mr. Kirk Hill MD,Electrical,2028,"C++, Python","JavaScript, Cloud Computing, Cybersecurity, Python",No,Master Web Development,13 - 14 hours per week
+179,Valerie Hammond,Mechanical,2027,"Python, JavaScript, Cloud Computing, Data Science","AI/ML, Data Science",No,Learn Blockchain,13 - 14 hours per week
+180,Valerie Hammond,Mechanical,2027,"Python, JavaScript, Cloud Computing, Data Science","AI/ML, Data Science",No,Learn Blockchain,13 - 14 hours per week
+181,Eddie Caldwell,Electronics,2026,"AI/ML, Python, Cybersecurity, Blockchain","Blockchain, Data Science",No,Prepare for Competitive Programming,13 - 14 hours per week
+182,Eddie Caldwell,Electronics,2026,"AI/ML, Python, Cybersecurity, Blockchain","Blockchain, Data Science",No,Prepare for Competitive Programming,13 - 14 hours per week
+183,Kara Franco,Civil,2027-2028,"Python, JavaScript","Data Science, C++",Yes,Improve AI skills,7 - 8 hours per week
+184,Kara Franco,Civil,2027-2028,"Python, JavaScript","Data Science, C++",Yes,Improve AI skills,7 - 8 hours per week
+185,Kelly Owens,Information Technology,2026,"AI/ML, SQL, C++, Python","Python, Cloud Computing, C++",Yes,Become a Full Stack Developer,5 - 6 hours per week
+186,Kelly Owens,Information Technology,2026,"AI/ML, SQL, C++, Python","Python, Cloud Computing, C++",Yes,Become a Full Stack Developer,5 - 6 hours per week
+187,Carmen Marsh,Electronics,2026,"C++, Java, Data Science","JavaScript, Data Science, C++, Cloud Computing",No,Learn Blockchain,9 - 10 hours per week
+188,Carmen Marsh,Electronics,2026,"C++, Java, Data Science","JavaScript, Data Science, C++, Cloud Computing",No,Learn Blockchain,9 - 10 hours per week
+189,Jeffrey Williams,Computer Science,2028,"AI/ML, Blockchain, JavaScript, SQL","Data Science, C++, Python",No,Master Web Development,13 - 14 hours per week
+190,Jeffrey Williams,Computer Science,2028,"AI/ML, Blockchain, JavaScript, SQL","Data Science, C++, Python",No,Master Web Development,13 - 14 hours per week
+191,Jacqueline Robinson DDS,Mechanical,2027,"Java, Data Science, JavaScript","Cybersecurity, SQL, Blockchain, Data Science",No,Enhance Cybersecurity Knowledge,11 - 12 hours per week
+192,Jacqueline Robinson DDS,Mechanical,2027,"Java, Data Science, JavaScript","Cybersecurity, SQL, Blockchain, Data Science",No,Enhance Cybersecurity Knowledge,11 - 12 hours per week
+193,Angela Durham,Civil,2026,"SQL, Blockchain, Data Science, Cybersecurity","JavaScript, C++, SQL, Cloud Computing",Yes,Master Web Development,7 - 8 hours per week
+194,Angela Durham,Civil,2026,"SQL, Blockchain, Data Science, Cybersecurity","JavaScript, C++, SQL, Cloud Computing",Yes,Master Web Development,7 - 8 hours per week
+195,Devon Brennan,Electrical,2025,"Cybersecurity, AI/ML, Data Science, JavaScript","JavaScript, SQL",No,Learn Blockchain,11 - 12 hours per week
+196,Devon Brennan,Electrical,2025,"Cybersecurity, AI/ML, Data Science, JavaScript","JavaScript, SQL",No,Learn Blockchain,11 - 12 hours per week
+197,Matthew Allen,Information Technology,2027-2028,"Data Science, Cybersecurity, Python","AI/ML, Blockchain, Cloud Computing",Yes,Prepare for Competitive Programming,11 - 12 hours per week
+198,Matthew Allen,Information Technology,2027-2028,"Data Science, Cybersecurity, Python","AI/ML, Blockchain, Cloud Computing",Yes,Prepare for Competitive Programming,11 - 12 hours per week
+199,Stephanie Cook,Computer Science,2028,"Data Science, Blockchain","Blockchain, C++",No,Learn Blockchain,9 - 10 hours per week
+200,Stephanie Cook,Computer Science,2028,"Data Science, Blockchain","Blockchain, C++",No,Learn Blockchain,9 - 10 hours per week
+201,Andrea Monroe,Electrical,2026,"SQL, Python, Java","Blockchain, Cybersecurity, Java",No,Learn Blockchain,13 - 14 hours per week
+202,Andrea Monroe,Electrical,2026,"SQL, Python, Java","Blockchain, Cybersecurity, Java",No,Learn Blockchain,13 - 14 hours per week
+203,Tiffany Wright,Mechanical,2026,"Blockchain, Cybersecurity, SQL","Java, Cloud Computing",No,Learn Blockchain,13 - 14 hours per week
+204,Tiffany Wright,Mechanical,2026,"Blockchain, Cybersecurity, SQL","Java, Cloud Computing",No,Learn Blockchain,13 - 14 hours per week
+205,Summer Murray,Electronics,2028,"Java, Data Science","C++, Cybersecurity, Data Science",Yes,Prepare for Competitive Programming,7 - 8 hours per week
+206,Summer Murray,Electronics,2028,"Java, Data Science","C++, Cybersecurity, Data Science",Yes,Prepare for Competitive Programming,7 - 8 hours per week
+207,Robert Brooks,Mechanical,2028,"Blockchain, Python, Cloud Computing, JavaScript","Blockchain, Java",No,Improve AI skills,13 - 14 hours per week
+208,Robert Brooks,Mechanical,2028,"Blockchain, Python, Cloud Computing, JavaScript","Blockchain, Java",No,Improve AI skills,13 - 14 hours per week
+209,Andrew Farmer,Civil,2026,"Data Science, JavaScript, Java, AI/ML","C++, Cloud Computing, AI/ML",No,Contribute to Open Source,5 - 6 hours per week
+210,Andrew Farmer,Civil,2026,"Data Science, JavaScript, Java, AI/ML","C++, Cloud Computing, AI/ML",No,Contribute to Open Source,5 - 6 hours per week
+211,April Roberts,Electrical,2026,"Java, JavaScript, C++, AI/ML","C++, Java, SQL, AI/ML",No,Master Web Development,7 - 8 hours per week
+212,April Roberts,Electrical,2026,"Java, JavaScript, C++, AI/ML","C++, Java, SQL, AI/ML",No,Master Web Development,7 - 8 hours per week
+213,Catherine Garcia,Mechanical,2026,"Java, JavaScript","AI/ML, C++, Python",No,Improve AI skills,7 - 8 hours per week
+214,Catherine Garcia,Mechanical,2026,"Java, JavaScript","AI/ML, C++, Python",No,Improve AI skills,7 - 8 hours per week
+215,Kathleen Manning,Electronics,2026,"C++, Cloud Computing, SQL","JavaScript, Cloud Computing, SQL, Blockchain",No,Enhance Cybersecurity Knowledge,7 - 8 hours per week
+216,Kathleen Manning,Electronics,2026,"C++, Cloud Computing, SQL","JavaScript, Cloud Computing, SQL, Blockchain",No,Enhance Cybersecurity Knowledge,7 - 8 hours per week
+217,Lisa Mckee,Mechanical,2027,"Cybersecurity, Data Science, Blockchain, Java","Python, C++, Data Science",Yes,Master Web Development,7 - 8 hours per week
+218,Lisa Mckee,Mechanical,2027,"Cybersecurity, Data Science, Blockchain, Java","Python, C++, Data Science",Yes,Master Web Development,7 - 8 hours per week
+219,Bryan Donovan,Civil,2026,"Java, C++, JavaScript, Cloud Computing","Java, SQL",No,Prepare for Competitive Programming,7 - 8 hours per week
+220,Bryan Donovan,Civil,2026,"Java, C++, JavaScript, Cloud Computing","Java, SQL",No,Prepare for Competitive Programming,7 - 8 hours per week
+221,Jacob Mahoney,Information Technology,2027,"Cybersecurity, Java","Cybersecurity, Data Science",No,Master Web Development,7 - 8 hours per week
+222,Jacob Mahoney,Information Technology,2027,"Cybersecurity, Java","Cybersecurity, Data Science",No,Master Web Development,7 - 8 hours per week
+223,Jessica King,Civil,2027,"C++, AI/ML, Cloud Computing, SQL","Cloud Computing, Java, Blockchain, C++",Yes,Prepare for Competitive Programming,9 - 10 hours per week
+224,Jessica King,Civil,2027,"C++, AI/ML, Cloud Computing, SQL","Cloud Computing, Java, Blockchain, C++",Yes,Prepare for Competitive Programming,9 - 10 hours per week
+225,Susan Flores,Computer Science,2026,"AI/ML, C++, Cloud Computing","Cloud Computing, Data Science",Yes,Become a Full Stack Developer,9 - 10 hours per week
+226,Susan Flores,Computer Science,2026,"AI/ML, C++, Cloud Computing","Cloud Computing, Data Science",Yes,Become a Full Stack Developer,9 - 10 hours per week
